@@ -49,6 +49,20 @@ fn get_files(path: String) -> Result<Vec<FileObject>, String> {
     Ok(res)
 }
 
+
+#[tauri::command]
+fn store_filesystem_in_sqlite() {
+    
+}
+
+
+#[tauri::command]
+fn scan_filesystem() {
+
+}
+
+
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
