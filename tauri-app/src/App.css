@@ -66,3 +66,19 @@
 .file:hover div {
   opacity: 1;
 }
+
+.button {
+  background-color: var(--bg-light);
+  color: var(--color);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px;
+}
+
+.little {
+  font-size: 12px;
+  font-weight: 300;
+}
